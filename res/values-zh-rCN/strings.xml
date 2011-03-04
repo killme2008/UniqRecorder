@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">为乐万能记录器</string>
+	<string name="progress_title">加载中……</string>
+	<string name="progress_message">加载信息中，请稍候……</string>
+	<string name="no_records">暂无记录，请先添加</string>
+
+	<!-- 菜单 -->
+	<string name="menu_list_record">所有项目</string>
+	<string name="menu_insert_record">新建项目</string>
+	<string name="menu_edit_record">编辑项目</string>
+	<string name="menu_delete_record">删除项目</string>
+	<string name="menu_list_item">查看记录</string>
+	<string name="menu_record_chart">查看曲线图</string>
+	<string name="menu_insert_item">新建记录</string>
+	<string name="menu_edit_item">编辑记录</string>
+	<string name="menu_delete_item">删除记录</string>
+	<string name="menu_delete_item_all">删除全部记录</string>
+
+	<!-- 编辑 -->
+	<string name="lbl_name">名称</string>
+	<string name="lbl_record">项目</string>
+	<string name="lbl_desc">描述</string>
+	<string name="lbl_date">日期</string>
+	<string name="lbl_value">数值</string>
+	<string name="btn_update">保存</string>
+	<string name="btn_cancel">取消</string>
+	<string name="btn_select_record">选择项目</string>
+	<string name="btn_sure">确定</string>
+	<string name="lbl_start_date">开始日期</string>
+	<string name="lbl_end_date">截止日期</string>
+	<string name="about_app">关于我们</string>
+	<string name="about_desc">"
+		为乐万能记录器是一个免费的记录和统计
+		软件,你可以自定义要统计的项目，如体重、
+		每日开销、每日读书时间等等，并且坚持每天
+		记录数值，那么为乐记录器将会将你的数值汇
+		总，并显示成曲线图供你查看分析。
+		"</string>
+</resources>

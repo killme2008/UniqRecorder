@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/net.rubyeye.ur"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/white">
+	<RelativeLayout android:id="@+id/widget28"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical">
+		<net.youmi.android.AdView android:id="@+id/ad"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			umadsdk:backgroundTransparent="100" umadsdk:backgroundColor="@color/white"
+			umadsdk:textColor="#0fff22" />
+		<TextView android:id="@+id/name_label" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/lbl_name"
+			android:layout_below="@id/ad" style="@style/title">
+		</TextView>
+
+		<EditText android:id="@+id/recordName" android:layout_width="300px"
+			android:layout_height="wrap_content" android:layout_below="@id/name_label"
+			android:paddingLeft="10dip" android:layout_marginBottom="10dip">
+		</EditText>
+
+		<TextView android:id="@+id/desc_label" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/lbl_desc"
+			android:layout_below="@id/recordName" style="@style/title">
+		</TextView>
+
+
+		<EditText android:id="@+id/recordDesc" android:layout_width="300px"
+			android:layout_height="wrap_content" android:layout_below="@id/desc_label"
+			android:paddingLeft="10dip" android:layout_marginBottom="20dip">
+		</EditText>
+
+
+		<Button android:id="@+id/recordUpdate" android:layout_below="@id/recordDesc"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/btn_update" style="@style/title">
+		</Button>
+
+		<Button android:id="@+id/recordCancel"
+			android:layout_toRightOf="@id/recordUpdate" android:layout_alignTop="@id/recordUpdate"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/btn_cancel" style="@style/title"
+			android:layout_marginLeft="10dip">
+		</Button>
+
+	</RelativeLayout>
+</ScrollView>

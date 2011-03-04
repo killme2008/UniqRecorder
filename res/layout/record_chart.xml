@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/net.rubyeye.ur"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/white" android:layout_height="fill_parent"
+	android:id="@+id/recordChartLayout" android:orientation="vertical">
+	<net.youmi.android.AdView android:id="@+id/ad"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		umadsdk:backgroundTransparent="100" umadsdk:backgroundColor="@color/white"
+		umadsdk:textColor="#0fff22" />
+	<TextView android:id="@+id/date_label" android:layout_width="250dip"
+		android:layout_height="wrap_content" android:text="" style="@style/title"
+		android:singleLine="true" android:padding="3dip">
+	</TextView>
+	<TextView android:id="@+id/total_label" android:layout_width="250dip"
+		android:layout_height="wrap_content" android:text="" style="@style/title"
+		android:singleLine="true" android:padding="3dip">
+	</TextView>
+	<TextView android:id="@+id/average_label"
+		android:layout_width="250dip" android:layout_height="wrap_content"
+		android:singleLine="true" android:text="" style="@style/title"
+		android:padding="3dip">
+	</TextView>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/net.rubyeye.ur"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/white">
+	<RelativeLayout android:id="@+id/widget28"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical">
+		<net.youmi.android.AdView android:id="@+id/ad"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			umadsdk:backgroundTransparent="100" umadsdk:backgroundColor="@color/white"
+			umadsdk:textColor="#0fff22" />
+		<TextView android:id="@+id/record_label"
+			android:layout_below="@id/ad" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/lbl_record"
+			style="@style/title">
+		</TextView>
+
+		<Spinner android:id="@+id/spinRecords" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@id/record_label"
+			android:layout_marginBottom="10dip"></Spinner>
+
+		<TextView android:id="@+id/value_label" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/lbl_value"
+			android:layout_below="@id/spinRecords" style="@style/title">
+		</TextView>
+
+
+		<EditText android:id="@+id/itemValue" android:layout_width="300px"
+			android:layout_height="wrap_content" android:layout_below="@id/value_label"
+			android:paddingLeft="10dip" android:layout_marginBottom="10dip">
+		</EditText>
+
+		<TextView android:id="@+id/date_label" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/lbl_date"
+			android:layout_below="@+id/itemValue" style="@style/title">
+		</TextView>
+
+		<DatePicker android:id="@+id/itemCreated"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_below="@id/date_label" android:paddingLeft="10px"
+			android:layout_marginBottom="15dip" />
+
+
+		<Button android:id="@+id/recordUpdate" android:layout_below="@id/itemCreated"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/btn_update" style="@style/title">
+		</Button>
+
+		<Button android:id="@+id/recordCancel"
+			android:layout_toRightOf="@id/recordUpdate" android:layout_alignTop="@id/recordUpdate"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/btn_cancel" android:layout_marginLeft="10dip"
+			style="@style/title">
+		</Button>
+
+	</RelativeLayout>
+</ScrollView>

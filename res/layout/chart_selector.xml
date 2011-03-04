@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@color/white">
+	<RelativeLayout android:id="@+id/widget28"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical">
+		<TextView android:id="@+id/record_label"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/lbl_record" style="@style/title">
+		</TextView>
+
+		<Spinner android:id="@+id/spinRecords" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@id/record_label"
+			android:layout_marginBottom="5dip"></Spinner>
+
+
+		<TextView android:id="@+id/date_label1" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/lbl_start_date"
+			android:layout_below="@id/spinRecords" style="@style/title">
+		</TextView>
+
+		<DatePicker android:id="@+id/startDate"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_below="@id/date_label1" android:paddingLeft="10px"
+			android:layout_marginBottom="5dip" />
+
+		<TextView android:id="@+id/date_label2" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/lbl_end_date"
+			android:layout_below="@id/startDate" style="@style/title">
+		</TextView>
+
+		<DatePicker android:id="@+id/endDate" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_below="@id/date_label2"
+			android:paddingLeft="5dip" android:layout_marginBottom="5dip" />
+
+
+		<Button android:id="@+id/sureBtn" android:layout_below="@id/endDate"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="@string/btn_sure" style="@style/title">
+		</Button>
+
+	</RelativeLayout>
+</ScrollView>
+

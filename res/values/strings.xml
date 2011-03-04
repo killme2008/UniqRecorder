@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Uniq Recorder</string>
+	<string name="progress_title">Loading……</string>
+	<string name="progress_message">Loading，Please wait……</string>
+	<string name="no_records">No records.</string>
+
+	<!-- 菜单 -->
+	<string name="menu_list_record">All projects</string>
+	<string name="menu_insert_record">New project</string>
+	<string name="menu_edit_record">Edit project</string>
+	<string name="menu_delete_record">Delete project</string>
+	<string name="menu_list_item">View items</string>
+	<string name="menu_record_chart">Chart view</string>
+	<string name="menu_insert_item">New item</string>
+	<string name="menu_edit_item">Edit item</string>
+	<string name="menu_delete_item">Delete item</string>
+	<string name="menu_delete_item_all">Delete all</string>
+
+	<!-- 编辑 -->
+	<string name="lbl_name">Name</string>
+	<string name="lbl_record">Project</string>
+	<string name="lbl_desc">Description</string>
+	<string name="lbl_date">Date</string>
+	<string name="lbl_value">Value</string>
+	<string name="btn_update">Save</string>
+	<string name="btn_cancel">Cancel</string>
+	<string name="btn_select_record">Select project</string>
+	<string name="btn_sure">Confirm</string>
+	<string name="lbl_start_date">Begin date</string>
+	<string name="lbl_end_date">End date</string>
+	<string name="about_app">About</string>
+	<string name="about_desc">"
+		Uniq Recorder is a free software for recording and statisticsing
+		everything you defined.
+		You can define your own project,and record them everyday,then uniq
+		recorder will help you
+		statisticsing data and displaying in chart view.
+		"</string>
+</resources>
